@@ -1,0 +1,7 @@
+[submodule "dalang-sublimetext2"]
+  path = dalang-sublimetext2
+  url = git://github.com/dalang/dalang-sublimetext2.git
+  ignore = untracked
+[submodule "eddie-vim"]
+	path = dalang-eddie-vim
+    url = git://github.com/dalang/eddie-vim.git

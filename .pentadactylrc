@@ -1,0 +1,8 @@
+map -modes=n,v q -builtin <count>gT
+map -modes=n,v w -builtin <count>gt
+map -modes=c,i,n,t,v <C-a> <Pass>
+map -modes=c,i,n,t,v <C-c> <Pass>
+map -modes=c,i,t <C-v> <Pass>
+map -modes=c,i,t <C-x> <Pass>
+map -modes=c,i,t <C-z> <Pass>
+set guioptions=nbrs
