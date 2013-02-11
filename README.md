@@ -2,9 +2,11 @@ dalang-Unix-like-Setting
 ========================
 .bashrc
 -------
-add following into ~/.bashrc
+add the following into ~/.bashrc
 
 > if [ -f ~/dalang-Unix-like-Setting/.bashrc ]; then . ~/dalang-Unix-like-Setting/.bashrc; fi
+
+NOTICE: Mac OS X use **.bash_profile** instead of .bashrc, so add th above into your .bash_profile
 
 .pentadactylrc
 --------------
@@ -18,3 +20,7 @@ submodule from [dalang-sublimetext2](https://github.com/dalang/dalang-sublimetex
 vim
 ---
 submodule from dalang's [eddie-vim](https://github.com/dalang/eddie-vim.git)
+
+if on Mac OS X, for vim-instant-d plugin works, ensure add npm path into $PATH
+
+    'export PATH=/usr/local/share/npm/bin:$PATH'
