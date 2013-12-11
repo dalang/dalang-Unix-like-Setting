@@ -11,7 +11,7 @@ NOTICE: Mac OS X use **.bash_profile** instead of .bashrc, so add th above into 
 .pentadactylrc
 --------------
 fantasy firefox adds-on for vim usrer
-> ln -s ~/.pentadactylrc ~/dalang-Unix-like-Setting/.pentadactylrc
+> ln -s ~/dalang-Unix-like-Setting/.pentadactylrc ~/.pentadactylrc
 
 sublime text 2
 --------------
@@ -24,3 +24,9 @@ submodule from dalang's [eddie-vim](https://github.com/dalang/eddie-vim.git)
 if on Mac OS X, for vim-instant-d plugin works, ensure add npm path into $PATH
 
     'export PATH=/usr/local/share/npm/bin:$PATH'
+
+tmux
+----
+personal tmux configuration
+
+> ln -s ~/dalang-Unix-like-Setting/.tmux.conf ~/.tmux.conf
