@@ -4,3 +4,9 @@
 [submodule "dalang-vim"]
 	path = dalang-vim
 	url = https://github.com/dalang/eddie-vim.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "oh-my-zsh_razor_plugin"]
+	path = oh-my-zsh_razor_plugin
+	url = git://github.com/dalang/oh-my-zsh_razor_plugin.git
