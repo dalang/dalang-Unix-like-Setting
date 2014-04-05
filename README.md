@@ -36,6 +36,12 @@ if on Mac OS X, for vim-instant-d plugin works, ensure add npm path into $PATH
     export PATH=/usr/local/share/npm/bin:$PATH
 
 * tmux
-personal tmux configuration
 
 > ln -s ~/dalang-Unix-like-Setting/tmux.conf ~/.tmux.conf
+
+by default I use tmux-powerline , you can switch to tmuxline via the following:
+
+1. edit dalang-vim/vimrc: ` let g:pathogen_disabled = ["snipmate", "vim-tmuxline"] ` => ` let g:pathogen_disabled = ["snipmate"] `
+1. edit tmux.conf: comment line`
+if-shell "test -f ~/dalang-Unix-like-Setting/tmux-powerline.conf" "source ~/dalang-Unix-like-Setting/tmux-powerline.conf"
+` and uncomment line ` if-shell "test -f ~/dalang-Unix-like-Setting/tmuxline.conf" "source ~/dalang-Unix-like-Setting/tmuxline.conf" `
