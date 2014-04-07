@@ -52,4 +52,4 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 alias razor='nocorrect razor'
 alias bin/razor='nocorrect bin/razor'
 
-# export DISABLE_AUTO_TITLE=true
+export DISABLE_AUTO_TITLE=true
