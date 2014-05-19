@@ -24,7 +24,7 @@ ZSH_THEME="dalang"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want to disable command autocorrection
 # DISABLE_CORRECTION="true"
@@ -51,5 +51,3 @@ export LANG=en_US.UTF-8
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 alias razor='nocorrect razor'
 alias bin/razor='nocorrect bin/razor'
-
-export DISABLE_AUTO_TITLE=true
